@@ -1,0 +1,38 @@
+.maDivBarreDeRecherche {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.contenuDivBarreDeRecherche{
+    /* border: 1px solid blue; */
+    width: 50%;
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px rgba(66, 65, 65, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding : 2%;
+    /* height: 100px; */
+}
+
+.contenuDivBarreDeRecherche p{
+    color : rgb(71, 107, 46);
+    font-size : 20px;
+    font-weight:700;
+    letter-spacing: 3px;
+}
+
+.contenuDivBarreDeRecherche:hover {
+    background-color: rgb(226, 231, 222);
+    /* transition: all 0.5s; */
+}
+
+input {
+    background-color: rgb(240, 244, 247);
+    height: 45px;
+    border : none;
+
+}

@@ -1,0 +1,64 @@
+button{
+    background-color: rgb(71, 107, 46);
+    color: white;
+    letter-spacing: 5px;
+    border : none;
+    border-radius: 5px;
+    width: 33%;
+    height: 30px;
+    cursor: pointer;
+}
+
+button:active{
+    /* transition: all 1s; */
+    background-color: white;
+    color : black;
+
+}
+
+h2{
+    letter-spacing: 3px;
+}
+
+.leH3SousTitre{
+    letter-spacing: 5px;
+}
+.imgAndCards{
+box-shadow: 8px 10px 15px -10px rgb(0, 0, 0);
+border-radius: 10px;
+/* border : solid red 2px; */
+/* height: 500px; */
+width: 400px;
+}
+
+.mesCartes{
+    padding: 5%;
+    border-radius: 5px;
+    /* font-size: small; */
+    /* border : 1px solid red; */
+}
+
+.mesCartes:hover{
+    background-color: rgb(181, 194, 171);
+    transition: all 0.5s;
+}
+
+h2, h3, button {
+    margin-bottom: 5px; 
+    /* border : solid 2px red; */
+    margin-top: 5px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 400px;
+    height: 350px;
+
+}
+
+.leH3Blanc{
+    color : rgba(163, 150, 150, 0.605);
+    font-weight: 400;
+}
